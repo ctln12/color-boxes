@@ -3,9 +3,6 @@ import { choice } from "./helpers";
 import './Box.css';
 
 class Box extends Component {
-  static defaultProps = {
-    allColors: ["purple", "magenta", "violet", "pink"]
-  }
   constructor(props){
     super(props);
     this.state = {
